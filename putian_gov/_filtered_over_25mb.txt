@@ -1,0 +1,8 @@
+# Files larger than 26214400 bytes (25MB): kept locally, NOT pushed to GitHub.
+size_bytes	relative_path
+48022649	ztlm/sjyjsgkpt/bmyjsgk/bmjs/201912/doce6f2b59524/P020200415559095687853.pdf
+33564166	ztlm/sjyjsgkpt/bmyjsgk/bmjs/202109/doc3445ba1c57/P020220211528999775469.pdf
+44770816	zfxxgk/szfwj/fzgh/201605/465787/attachments/莆田市“十三五”产业发展专项规划.doc
+79751425	zfxxgk/szfwj/fzgh/202109/1646827/attachments/【公交图册】文本主要附图.pdf
+176870385	zfxxgk/szfwj/fzgh/202212/1785644/attachments/教育设施用地布局专项规划.pdf
+43437645	zwgk/tjxx/sjjd/202604/2214337/attachments/W020260428647076558721.png

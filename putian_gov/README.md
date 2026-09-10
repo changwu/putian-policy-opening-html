@@ -1,3 +1,383 @@
-﻿# 鑾嗙敯甯傛斂搴滈棬鎴风綉绔?- 鍏紑鍐呭瀛樻。
+# 莆田市人民政府门户网站 政务公开爬取存档
 
-鎶撳彇杩涜涓?璇︽儏瑙佽緭鍑虹洰褰?README 涓庣储寮曘€?
+- 站点: 莆田市人民政府门户网站 (https://www.putian.gov.cn)
+- 板块范围: 政务公开(/zwgk/)、政府信息公开(/zfxxgk/)、解读回应(/jdhy/) 及直接链接的 *.putian.gov.cn 子站文章(一跳)
+- 生成时间: 2026-09-10 19:06:09
+- 目录说明: 每篇文档一个目录: page.txt(标题/时间/文号/机构/链接/正文) page.html(原始网页存档) links.tsv(链接记录) attachments/(同域附件与图片)
+- 抓取方式: 单线程低速礼貌抓取; 栏目树按板块首页枚举; 文章URL由各栏目页 list2 API(/fjdzapp/search, channelid=201988) 依栏目树分页枚举
+- robots.txt: 404(无限制); 全程未触发反爬
+
+## 统计
+
+| 指标 | 数量 |
+| --- | --- |
+| 栏目(channel)数 | 327 |
+| 文章页 总数 | 58952 |
+| 文章页 已抓取 | 58316 |
+| 文章页 待抓取 | 0 |
+| 文章页 失败(含死链404) | 50 |
+| 附件/图片 总数 | 10128 |
+| 附件/图片 已下载 | 9422 |
+| 附件 下载失败 | 706 |
+| 站外链接记录 | 321 |
+
+## 各栏目进度
+
+| 栏目 | 总 | 完成 | 失败 | 待抓 |
+| --- | --- | --- | --- | --- |
+| gzcy/myzj/detail.htm | 3 | 0 | 0 | 0 |
+| jdhy/hygq | 59 | 59 | 0 | 0 |
+| jdhy/xwfbhs | 97 | 97 | 0 | 0 |
+| jdhy/zcjd/bmwjjd | 136 | 136 | 0 | 0 |
+| jdhy/zcjd/szcjd | 822 | 822 | 0 | 0 |
+| jycx/guidety.html | 1 | 0 | 0 | 0 |
+| maincms-web/zcfg | 1 | 0 | 0 | 0 |
+| ptsq | 10 | 0 | 0 | 0 |
+| root | 1 | 0 | 0 | 0 |
+| xxgk/czzj/czyjs | 20 | 20 | 0 | 0 |
+| xxgk/gggs | 1 | 0 | 0 | 0 |
+| xxgk/ghgk/ghcg | 1 | 1 | 0 | 0 |
+| xxgk/ghjhxx | 1 | 1 | 0 | 0 |
+| xxgk/gzdt | 2 | 2 | 0 | 0 |
+| xxgk/hjjg/hpsp/nspgs | 1 | 1 | 0 | 0 |
+| xxgk/hzqlqd | 1 | 0 | 0 | 0 |
+| xxgk/jsjgw | 4 | 4 | 0 | 0 |
+| xxgk/ssjcc | 4 | 4 | 0 | 0 |
+| xxgk/tjxx/zdxmtj | 24 | 24 | 0 | 0 |
+| xxgk/xzqlyx/xzjd | 3 | 3 | 0 | 0 |
+| xxgk/yatabl | 13 | 13 | 0 | 0 |
+| xxgk/zcjd | 2 | 2 | 0 | 0 |
+| xxgk/zfxxgk | 3 | 0 | 0 | 0 |
+| xxgk/zfxxgk/fdzdgknr/csjshgldzdsx | 1 | 1 | 0 | 0 |
+| xxgk/zfxxgk/gksq | 2 | 0 | 0 | 0 |
+| xxgk/zfxxgk/xzgfxwj | 2 | 0 | 0 | 0 |
+| xxgk/zfxxgk/ysqgk | 1 | 0 | 0 | 0 |
+| xxgk/zfxxgk/zc/xzgfxwj | 1 | 0 | 0 | 0 |
+| xxgk/zfxxgk/zfxxgkml/gzzd | 1 | 1 | 0 | 0 |
+| xxgk/zfxxgk/zfxxgkml/qt | 33 | 33 | 0 | 0 |
+| xxgk/zfxxgk/zfxxgknb | 2 | 0 | 0 | 0 |
+| xxgk/zfxxgk/zfxxgkndbg | 1 | 0 | 0 | 0 |
+| zfxxgk | 10 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknef/ssjcc | 8 | 8 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknef/yatay | 15 | 15 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknef/ysyjs/sgjf | 12 | 12 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknr/gfxwj | 23 | 23 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknr/gzdt_17845 | 317 | 317 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknr/jgszzyznbscx | 176 | 176 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/fdzdgknr/qtyzdgkxx | 137 | 137 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/gksq/sqbxz | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/zc/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptcg/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/fdzdgknr/tayabljggk | 47 | 47 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/fdzdgknr/tpfp | 229 | 229 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/fdzdgknr/xgsx | 533 | 533 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/gksq/sqb | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/zfxxgknb | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptgzw/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/flfghgfxwj | 295 | 295 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/fzgh | 128 | 128 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/gfxwj | 8 | 8 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/ggsjyjgl | 101 | 101 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/jdjcqk | 153 | 153 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/zdgkdqtxx | 228 | 228 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/fdzdgknr/zzjgsz | 203 | 203 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/zfxxgkzd | 9 | 9 | 0 | 0 |
+| zfxxgk/bmzfxxgk/pthyyyyj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/gzdt | 223 | 223 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/jgszzyznrsrm | 99 | 99 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/kjfzghzxghndgzjhzj | 66 | 66 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/kjgysy | 96 | 96 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/kjzxzjdglhsyqk | 133 | 133 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/ssjcc | 11 | 11 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/tayabl | 7 | 7 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/xzfggzhgfxwj | 8 | 8 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/xzqlyx_33289 | 38 | 38 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/fdzdgknr/zfyzdgkdqtxx | 66 | 66 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/zc/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/zfxxgknb | 18 | 17 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/zfxxgkzd | 12 | 12 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptkjj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk/fdzdgknr/nyzcfg | 53 | 53 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk/fdzdgknr/zfyzdgkdqtxx | 89 | 89 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk/zfxxgknb | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptnyj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/fdzdgknr/bdwldjgszzyznsjlc | 156 | 156 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/fdzdgknr/fzgh | 55 | 55 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/fdzdgknr/qtyzdgkxx | 271 | 271 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/fdzdgknr/shgysyjs | 81 | 81 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/zfxxgkzd | 7 | 7 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsjj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/fdzdgknr/gfxwj | 12 | 12 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/fdzdgknr/gzxg | 339 | 339 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/fdzdgknr/jgczzj | 75 | 75 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/fdzdgknr/jgzn | 180 | 180 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/fdzdgknr/qlyx | 176 | 176 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/fdzdgknr/zcfg | 87 | 87 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/zfxxgkzd | 19 | 19 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptslyj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/fdzdgknr/gzdt | 138 | 138 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/fdzdgknr/jyta | 16 | 16 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/fdzdgknr/qtyzdgkdxx | 57 | 57 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/fdzdgknr/tfyjgl | 68 | 68 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/fdzdgknr/xzxk | 98 | 98 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/fdzdgknr/zzjg | 68 | 68 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/zfxxgkzd | 9 | 9 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsmzj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/fdzdgknr/gfxwjg | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/fdzdgknr/jgzn | 127 | 127 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/fdzdgknr/qtxx | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/fdzdgknr/sljsygl | 390 | 390 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/fdzdgknr/yjgl | 298 | 298 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/fdzdgknr/zjjg | 644 | 644 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/zfxxgkzd | 19 | 19 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptsslj/zfxxgk/zfxxgkzn | 2 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/fgwj | 141 | 141 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/jggk_20370 | 3 | 3 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/rsxx | 59 | 59 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/tjx/jdsj | 3403 | 3403 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/tjx/pcgb_20384 | 32 | 32 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/tjx/tjfx | 1094 | 1094 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/tjx/tjgb_20383 | 21 | 17 | 4 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/wjtz | 69 | 69 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/zcjd | 25 | 25 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/zjxx/czzjyjs | 251 | 251 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/zjxx/zfcg_20389 | 52 | 52 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/fdzdgknr/zjxx/zxjf_20388 | 138 | 138 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/zfxxgkzd | 10 | 10 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstjj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zcjd | 14 | 14 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/fdzdgknr/gzdt | 249 | 249 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/fdzdgknr/jgszzyzn | 33 | 33 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/fdzdgknr/shgysyjs | 219 | 219 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/fdzdgknr/yjyaaqgzdt | 38 | 38 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/fdzdgknr/zcfggzgfxw | 3 | 3 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/zfxxgkzd | 7 | 7 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptstyj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/flfggzzdgfxwj | 205 | 205 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/gfxwj | 3 | 3 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/ggzjsyyjd | 279 | 279 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/gzdt | 527 | 527 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/jgzn_16204 | 304 | 304 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/shgysy | 407 | 407 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/tfggsj | 590 | 590 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/fdzdgknr/tiaya | 446 | 446 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/zfxxgknb | 30 | 29 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/zfxxgkzd | 19 | 19 | 0 | 0 |
+| zfxxgk/bmzfxxgk/ptwgj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk/fdzdgknr/fgzc | 12 | 12 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk/fdzdgknr/jyta | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk/zfxxgknb | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/tyjrswj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/fdzdgknr/gfxwj | 17 | 17 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/fdzdgknr/qtgkxx | 602 | 602 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/fdzdgknr/yjgl | 1083 | 1083 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/gksq | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/gksq/sqbxz | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/zc/xzgfxwj | 1 | 0 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/zfxxgknb | 19 | 18 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/zfxxgkzd | 3 | 3 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgk/bmzfxxgk/yjglj/zwgk/yjjz | 1 | 1 | 0 | 0 |
+| zfxxgk/fdzdgknr/aqsc | 1 | 1 | 0 | 0 |
+| zfxxgk/fdzdgknr/flfg_32639 | 1 | 1 | 0 | 0 |
+| zfxxgk/fdzdgknr/gzdt_32647 | 1 | 1 | 0 | 0 |
+| zfxxgk/fdzdgknr/gzdt_33431 | 3 | 3 | 0 | 0 |
+| zfxxgk/fdzdgknr/jsgl | 4 | 4 | 0 | 0 |
+| zfxxgk/fdzdgknr/qtyzdgkxx | 24 | 24 | 0 | 0 |
+| zfxxgk/fdzdgknr/tdgl_40374 | 2 | 2 | 0 | 0 |
+| zfxxgk/fdzdgknr/xzfg | 1 | 1 | 0 | 0 |
+| zfxxgk/fdzdgknr/yatabl | 17 | 17 | 0 | 0 |
+| zfxxgk/fdzdgknr/ygkdqtxx | 33 | 33 | 0 | 0 |
+| zfxxgk/ggqsydwxxgk/ggjtlyggqsydw/ptsggjtjtyxgs | 83 | 83 | 0 | 0 |
+| zfxxgk/ggqsydwxxgk/ptsswjtyxgs | 94 | 94 | 0 | 0 |
+| zfxxgk/gksq | 10 | 0 | 0 | 0 |
+| zfxxgk/gksq/lcsx | 1 | 1 | 0 | 0 |
+| zfxxgk/gksq/sljg | 1 | 1 | 0 | 0 |
+| zfxxgk/gksq/sqb | 1 | 1 | 0 | 0 |
+| zfxxgk/szfwj | 1 | 0 | 0 | 0 |
+| zfxxgk/szfwj/cxjshgl | 1078 | 1078 | 0 | 0 |
+| zfxxgk/szfwj/fggz | 225 | 225 | 0 | 0 |
+| zfxxgk/szfwj/fp | 243 | 243 | 0 | 0 |
+| zfxxgk/szfwj/fzgh | 567 | 300 | 0 | 0 |
+| zfxxgk/szfwj/gfxwjql | 104 | 104 | 0 | 0 |
+| zfxxgk/szfwj/gysy | 205 | 205 | 0 | 0 |
+| zfxxgk/szfwj/gzdt | 408 | 303 | 0 | 0 |
+| zfxxgk/szfwj/hjbh | 211 | 187 | 0 | 0 |
+| zfxxgk/szfwj/jgsz | 778 | 778 | 0 | 0 |
+| zfxxgk/szfwj/qt | 522 | 522 | 0 | 0 |
+| zfxxgk/szfwj/zcqjbcff | 2226 | 2226 | 0 | 0 |
+| zfxxgk/szfwj/zdjsxm | 155 | 155 | 0 | 0 |
+| zfxxgk/xzgfxwj | 6 | 0 | 0 | 0 |
+| zfxxgk/zc/szfgz | 4 | 4 | 0 | 0 |
+| zfxxgk/zc/xzgfxwj | 5 | 1 | 0 | 0 |
+| zfxxgk/zfxxgknb | 10 | 1 | 0 | 0 |
+| zfxxgk/zfxxgkndbg | 11 | 11 | 0 | 0 |
+| zfxxgk/zfxxgkndbg/2019nzfxxgkndbg/ptsrmzfbgs | 2 | 2 | 0 | 0 |
+| zfxxgk/zfxxgkzd | 31 | 31 | 0 | 0 |
+| zfxxgk/zfxxgkzd/fjs | 10 | 10 | 0 | 0 |
+| zfxxgk/zfxxgkzd/gj | 15 | 15 | 0 | 0 |
+| zfxxgk/zfxxgkzd/pts | 21 | 21 | 0 | 0 |
+| zfxxgk/zfxxgkzn | 1 | 1 | 0 | 0 |
+| zfxxgkzl/bmzfxxgk/ptcg/zfxxgkzl/zfxxgkml/jgszzyznbscx | 1 | 0 | 1 | 0 |
+| zfxxgkzl/ysqgk | 1 | 0 | 0 | 0 |
+| zfxxgkzl/zfxxgkml | 22 | 22 | 0 | 0 |
+| zfxxgkzl/zfxxgkndbg | 1 | 0 | 0 | 0 |
+| ztlm/sjyjsgkpt/bmyjsgk/bmjs | 861 | 852 | 9 | 0 |
+| ztlm/sjyjsgkpt/bmyjsgk/bmys | 956 | 955 | 1 | 0 |
+| ztlm/sjyjsgkpt/dwyjsgk/dwjs | 1335 | 1324 | 11 | 0 |
+| ztlm/sjyjsgkpt/dwyjsgk/dwys | 1477 | 1473 | 4 | 0 |
+| ztlm/sjyjsgkpt/sjzfyjsgk/sjjs | 38 | 38 | 0 | 0 |
+| ztlm/sjyjsgkpt/sjzfyjsgk/sjys | 31 | 31 | 0 | 0 |
+| ztlm/sjyjsgkpt/sjzfyjsgk/sjysdz | 17 | 17 | 0 | 0 |
+| ztlm/sjyjsgkpt/sjzfyjsgk/sjyszx | 104 | 104 | 0 | 0 |
+| ztlm/sjyjsgkpt/sjzfyjsgk/sjzfxzw | 37 | 37 | 0 | 0 |
+| zwgk/czzj/czyjs | 1 | 0 | 0 | 0 |
+| zwgk/czzj/xzsysf | 1 | 1 | 0 | 0 |
+| zwgk/fgwj/fl/ptsdfxfg | 17 | 17 | 0 | 0 |
+| zwgk/fgwj/gfxwjql | 2 | 2 | 0 | 0 |
+| zwgk/fkzs | 1 | 1 | 0 | 0 |
+| zwgk/ggzjsyyjd/czyjs | 26 | 26 | 0 | 0 |
+| zwgk/ghxx/ghjd | 38 | 37 | 0 | 0 |
+| zwgk/ghxx/gzjzqk | 46 | 46 | 0 | 0 |
+| zwgk/ghxx/qygh | 38 | 38 | 0 | 0 |
+| zwgk/ghxx/sjjhzjs | 27 | 27 | 0 | 0 |
+| zwgk/ghxx/ztgh | 10 | 10 | 0 | 0 |
+| zwgk/ghxx/zxgh | 73 | 17 | 0 | 0 |
+| zwgk/gzdt/ssdt | 1 | 1 | 0 | 0 |
+| zwgk/jhzj/zfgzbg | 27 | 27 | 0 | 0 |
+| zwgk/jycy/jy | 5 | 5 | 0 | 0 |
+| zwgk/jycy/rlzysc | 3 | 3 | 0 | 0 |
+| zwgk/ptdt/bmdt | 469 | 469 | 0 | 0 |
+| zwgk/ptdt/ldhd | 1 | 0 | 1 | 0 |
+| zwgk/ptdt/ptyw | 11503 | 11488 | 15 | 0 |
+| zwgk/ptdt/szyw | 1501 | 1501 | 0 | 0 |
+| zwgk/ptdt/xqdt | 793 | 793 | 0 | 0 |
+| zwgk/qwbd | 1121 | 1121 | 0 | 0 |
+| zwgk/rcdwjs/jnrc | 1 | 1 | 0 | 0 |
+| zwgk/rsxx/rsrm | 493 | 493 | 0 | 0 |
+| zwgk/szfcwhyhqthy/dzhy | 16 | 16 | 0 | 0 |
+| zwgk/szfcwhyhqthy/szfcwhy | 133 | 133 | 0 | 0 |
+| zwgk/tjxx/sjjd | 60 | 60 | 0 | 0 |
+| zwgk/tjxx/tjfx | 937 | 937 | 0 | 0 |
+| zwgk/tjxx/tjgb | 41 | 41 | 0 | 0 |
+| zwgk/tjxx/tjsj | 3302 | 3302 | 0 | 0 |
+| zwgk/tzgg | 59 | 58 | 1 | 0 |
+| zwgk/xzqlyx/jsjf | 8 | 8 | 0 | 0 |
+| zwgk/zcwjk/zcwd | 102 | 102 | 0 | 0 |
+| zwgk/zdlyxxgk/aqsc/dccljg | 48 | 48 | 0 | 0 |
+| zwgk/zdlyxxgk/aqsc/ffcs | 22 | 22 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/bmcggsgg | 208 | 208 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/bmjs | 1 | 1 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/bmsgjf | 1146 | 1146 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/bmyjs/sjjs | 1 | 1 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/bmyjs/sjys | 3 | 2 | 1 | 0 |
+| zwgk/zdlyxxgk/czzj/bmys | 2 | 2 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/dwjs | 6 | 6 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/dwys | 13 | 13 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/sjjggkzl | 80 | 80 | 0 | 0 |
+| zwgk/zdlyxxgk/czzj/zxgzzj | 69 | 69 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/pwqjyly | 12 | 12 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/zfbzly/bzxajgcjsjh | 41 | 41 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/zfbzly/bzxzfbszn | 24 | 24 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/zfbzly/bzxzfbzbz | 6 | 6 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/zfbzly/bzxzffpxx | 66 | 66 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/zfbzly/bzxzftcxx | 14 | 14 | 0 | 0 |
+| zwgk/zdlyxxgk/ggzypzly/zfcg/cgml | 1 | 0 | 0 | 0 |
+| zwgk/zdlyxxgk/jsjfssyhzcgkzl | 19 | 19 | 0 | 0 |
+| zwgk/zdlyxxgk/jycy/jygq | 8 | 8 | 0 | 0 |
+| zwgk/zdlyxxgk/jycy/zc | 9 | 9 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/ggwhtyly/ggwhtybzzc | 23 | 23 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/ggwhtyly/ggwhtyxmjsgl | 50 | 50 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/ggwhtyly/whtyhdxx | 48 | 48 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/ggwhtyly/whtyssml | 3 | 3 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/ggwhtyly/whycbh | 79 | 79 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/tpgjly/fpxmxgxx | 108 | 108 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/tpgjly/fpzc | 107 | 107 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/tpgjly/gzqk | 513 | 513 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/bncs | 3 | 3 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/gzdt | 62 | 61 | 1 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/szyl | 15 | 15 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/yjjg | 1 | 1 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/yjxx | 77 | 77 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/yjyaa | 6 | 6 | 0 | 0 |
+| zwgk/zdlyxxgk/shgysyjsly/zhsgjyly/zhjzxqxx | 9 | 9 | 0 | 0 |
+| zwgk/zdlyxxgk/snbt/snxmbt | 120 | 120 | 0 | 0 |
+| zwgk/zdlyxxgk/snbt/zjfpgk | 28 | 28 | 0 | 0 |
+| zwgk/zdlyxxgk/snbt/zjzcgk | 83 | 83 | 0 | 0 |
+| zwgk/zdlyxxgk/ssjcc | 245 | 245 | 0 | 0 |
+| zwgk/zdlyxxgk/xzsysf/sfbz | 33 | 33 | 0 | 0 |
+| zwgk/zdlyxxgk/xzsysf/ygjf | 26 | 26 | 0 | 0 |
+| zwgk/zdlyxxgk/yata/rdya | 41 | 41 | 0 | 0 |
+| zwgk/zdlyxxgk/yata/zxta | 103 | 103 | 0 | 0 |
+| zwgk/zdlyxxgk/zdjsxmpzhssly/zdjsxm | 29 | 29 | 0 | 0 |
+| zwgk/zdlyxxgk/zdxcjcsx/jdsm | 16 | 16 | 0 | 0 |
+| zwgk/zdlyxxgk/zdxcjcsx/ndzdjcsxml | 5 | 5 | 0 | 0 |
+| zwgk/zdlyxxgk/zdxcjcsx/xgzd | 8 | 8 | 0 | 0 |
+| zwgk/zfgb | 3129 | 3129 | 0 | 0 |
+| zwgk/zfld/cjz | 1 | 1 | 0 | 0 |
+| zwgk/zfld/czy | 1 | 1 | 0 | 0 |
+| zwgk/zfld/dlc/hdbd | 1 | 1 | 0 | 0 |
+| zwgk/zfld/eedmt | 1 | 1 | 0 | 0 |
+| zwgk/zfld/ggc | 1 | 1 | 0 | 0 |
+| zwgk/zfld/wwe | 1 | 1 | 0 | 0 |
+| zwgk/zfld/zbs | 1 | 1 | 0 | 0 |
+| zwgk/zfxxgk | 2 | 0 | 0 | 0 |
+| zwgk/zfxxgk/fdzdgknr/gzdt | 26 | 26 | 0 | 0 |
+| zwgk/zfxxgk/fdzdgknr/jypx/jyhbx | 1 | 1 | 0 | 0 |
+| zwgk/zfxxgk/gksq | 2 | 0 | 0 | 0 |
+| zwgk/zfxxgk/zc/xzgfxwj | 2 | 0 | 0 | 0 |
+| zwgk/zfxxgk/zfxxgknb | 2 | 0 | 0 | 0 |
+| zwgk/zxwj | 1 | 1 | 0 | 0 |
+| zwgk/zxwjs/szfbwj | 27 | 26 | 1 | 0 |
+| zwgk/zxwjs/szfwj | 444 | 444 | 0 | 0 |
+
+## 相关文件
+
+- _index.tsv 全部文章索引(栏目/标题/发布时间/文号/发布机构/原始链接/本地路径/状态)
+- _attachments.tsv 附件与图片索引
+- _outbound_links.tsv 站外/越界链接记录
+- _failed_pages.tsv 抓取失败清单(404死链属正常)
+- _filtered_over_25mb.txt 超过25MB、未推入GitHub的文件清单
+- _directory_tree.txt 完整目录树
+- 爬虫代码与状态库: putian_crawler/(SQLite state.db, 可断点续爬)
