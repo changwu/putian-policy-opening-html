@@ -1,0 +1,96 @@
+kind	text	url
+image		https://www.putian.gov.cn/public/images/gh_logo.png
+image		https://www.putian.gov.cn/images/pt_logo.png
+image		https://www.putian.gov.cn/images/21pt_icon3.png
+image		https://www.putian.gov.cn/images/21pt_icon4.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon1.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon2.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon8.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon3.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon4.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon5.png
+image		https://www.putian.gov.cn/images/21pt_zcjd_xl_icon.jpg
+image		https://www.putian.gov.cn/images/21pt_xl_icon6.png
+image		https://www.putian.gov.cn/images/21pt_xl_icon7.png
+image		https://www.putian.gov.cn/images/16tpba.png
+image		https://www.putian.gov.cn/images/W020181120563595090044.jpg
+image		https://www.putian.gov.cn/images/W020200115334845737129.png
+link		https://www.putian.gov.cn/
+link	国务院	http://www.gov.cn/
+link	省政府	http://www.fujian.gov.cn/
+link	市人大	http://www.ptrd.gov.cn/
+link	市政协	http://www.ptszx.cn/
+link	微信	https://www.putian.gov.cn/bzzx/zwxmtjz/
+link	闽政通	https://www.fujian.gov.cn/bsfw/mztapp/
+link	你好，{{loginInfo.showname}}	https://www.putian.gov.cn/uc/users/index
+link	政务公开	https://www.putian.gov.cn/zwgk/
+link	政府信息公开	https://www.putian.gov.cn/zfxxgk/
+link	最新文件	https://www.putian.gov.cn/zwgk/zxwjs/
+link	政府公报	https://www.putian.gov.cn/zwgk/zfgb/
+link	人事信息	https://www.putian.gov.cn/zwgk/rsxx/
+link	财政资金	https://www.putian.gov.cn/zwgk/zdlyxxgk/czzj/
+link	重点领域信息公开	https://www.putian.gov.cn/zwgk/zdlyxxgk/
+link	数据开放	https://data.fujian.gov.cn/
+link	数据发布	https://www.putian.gov.cn/zwgk/tjxx/
+link	专题专栏	https://www.putian.gov.cn/ztzl/
+link	政策文件库	https://www.putian.gov.cn/zwgk/zcwjk/
+link	解读回应	https://www.putian.gov.cn/jdhy/
+link	回应关切	https://www.putian.gov.cn/jdhy/hygq/
+link	政策解读	https://www.putian.gov.cn/jdhy/zcjd/
+link	图片解读	https://www.putian.gov.cn/jdhy/zcjd/szcjd/?doc=1
+link	新闻发布会	https://www.putian.gov.cn/jdhy/xwfbhs/
+link	办事服务	https://www.putian.gov.cn/wsbs/
+link	网上办事大厅	https://zwfw.fujian.gov.cn/?type=1&siteUnid=94C539CCB2C6CECE680DD7B512F26958
+link	便民服务	https://zwfw.fujian.gov.cn/people-server/index?paramsType=bm
+link	权责清单	https://www.putian.gov.cn/zwgk/zdlyxxgk/qzqd/
+link	互动交流	https://www.putian.gov.cn/gzcy/
+link	智能问答	https://www.putian.gov.cn/aisp/4028808862fbd8eb0162fbf1daf80032/chat/index.html
+link	12345便民服务平台	https://www.putian.gov.cn/pt12345/
+link	政务在线访谈	https://www.putian.gov.cn/gzcy/zxft/
+link	网上调查	https://www.putian.gov.cn/gzcy/wsdc/
+link	民意征集	https://www.putian.gov.cn/gzcy/myzj/
+link	走进莆田	https://www.putian.gov.cn/zjpt/
+link	长者模式	https://www.putian.gov.cn/zwgk/rsxx/rsrm/200811/t20081102_124770.htm
+link	人事任免	https://www.putian.gov.cn/zwgk/rsxx/rsrm/
+link	行政服务中心	http://xzfwzx.putian.gov.cn/
+link	发改委	http://fgw.putian.gov.cn
+link	公安局	http://gaj.putian.gov.cn/
+link	民政局	http://mzj.putian.gov.cn/
+link	工信局	http://jxw.putian.gov.cn/
+link	卫生健康委员会	http://wjw.putian.gov.cn/
+link	商务局	http://swj.putian.gov.cn
+link	交通运输局	http://jtysj.putian.gov.cn/
+link	生态环境局	http://sthjj.putian.gov.cn/
+link	住建局	http://zjj.putian.gov.cn/
+link	自然资源局	http://zrzyj.putian.gov.cn/
+link	人社局	http://rsj.putian.gov.cn/
+link	财政局	http://czj.putian.gov.cn/
+link	司法局	http://sfj.putian.gov.cn/
+link	教育局	http://jyj.putian.gov.cn/
+link	市场监督管理局	http://scjgj.putian.gov.cn/
+link	医保局	https://www.putian.gov.cn/ptybj/
+link	住房公积金中心	https://www.putian.gov.cn/ptgjj/
+link	气象局	http://fj.cma.gov.cn/ptsqxj/
+link	莆田市侨联	http://www.ptsql.org/
+link	荔城区人民政府	http://www.ptlc.gov.cn/
+link	城厢区人民政府	http://www.chengxiang.gov.cn/
+link	秀屿区人民政府	http://www.ptxy.gov.cn/
+link	涵江区人民政府	http://www.pthj.gov.cn/
+link	仙游县人民政府	http://www.xianyou.gov.cn/
+link	湄洲管委会	http://mzd.putian.gov.cn/
+link	中国福建	http://www.fj.gov.cn/
+link	福州市	http://www.fuzhou.gov.cn/
+link	厦门市	http://www.xm.gov.cn/
+link	漳州市	http://www.zhangzhou.gov.cn/
+link	泉州市	http://www.quanzhou.gov.cn/
+link	三明市	http://www.sm.gov.cn/
+link	南平市	http://www.np.gov.cn/
+link	龙岩市	http://www.longyan.gov.cn/
+link	宁德市	http://www.ningde.gov.cn/
+link	平潭综合实验区	http://www.pingtan.gov.cn/
+link	联系我们	https://www.putian.gov.cn/bzzx/lxwm/
+link	使用帮助	https://www.putian.gov.cn/bzzx/sybz/
+link	网站地图	https://www.putian.gov.cn/bzzx/wzdt/
+link	隐私保护	https://www.putian.gov.cn/bzzx/ysbh/
+link	闽ICP备05009235号	https://beian.miit.gov.cn
+link	闽公网安备 35030002001007号	http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35030002001007
